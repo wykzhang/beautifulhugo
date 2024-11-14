@@ -216,6 +216,12 @@ title = "About"
 icon = "fas fa-at"
 
 [[social_icons]]
+id = "lastfm"
+url = "https://www.last.fm/user/%s"
+title = "Last.fm"
+icon = "fab fa-lastfm"
+
+[[social_icons]]
 id = "bluesky"
 url = "%s"
 title = "About"
