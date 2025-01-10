@@ -2,14 +2,30 @@
   padding: 20px 0px 0px 0px;
 }
 
+.staticman-comments .static-comment {
+	background: rgb(31,41,55);
+	padding: 25px;
+	margin-bottom: 40px;
+}
+
 .staticman-comments .comment-content{
-  border-top: 1px solid #EEEEEE;
-  padding: 4px 0px 30px 0px;
+  padding: 0px 0px 0px 0px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.staticman-comments .comment-timestamp a {
+  color: white;
 }
 
 .staticman-comments .comment-content p {
   padding: 5px 0px 5px 0px;
-  margin: 5px 58px 0px 58px;
+  margin: 5px 0px 0px 0px;
+}
+
+.staticman-comments .form {
+	margin-top: 30px;
+	background: rgb(31,41,55);
+	padding: 25px;
 }
 
 .staticman-comments .textfield {
@@ -33,6 +49,7 @@
 
 .staticman-comments .button {
 	color: black;
+	margin-top: 20px;
 }
 
 .staticman-comments textarea {
