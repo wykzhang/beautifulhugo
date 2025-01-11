@@ -16,6 +16,7 @@
 
 
     {{ $.Scratch.Set "hasComments" 0 }}
+    <div class="static-all-comments">
     {{ range $index, $comments := (index $.Site.Data.comments $slug ) }}
       {{ if not .parent }}
         {{ $.Scratch.Add "hasComments" 1 }}
@@ -31,6 +32,7 @@
         </article>
       {{ end }}
     {{ end }}
+    </div>
   {{ end }}
 
 
